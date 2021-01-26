@@ -2,7 +2,7 @@
  * @Author: tangdaoyong
  * @Date: 2021-01-18 13:45:43
  * @LastEditors: tangdaoyong
- * @LastEditTime: 2021-01-18 20:06:41
+ * @LastEditTime: 2021-01-26 17:35:15
  * @Description: docker
 -->
 # docker
@@ -11,6 +11,12 @@
 [docker文档](https://docs.docker.com/docker-for-mac/install/)
 [docker安装](http://c.biancheng.net/view/3119.html)
 [Docker Vs Podman](https://zhuanlan.zhihu.com/p/321700587?utm_source=com.microsoft.office.outlook)
+
+| 技术 | 应用场景 | 资源占用情况 |
+| - | - | - |
+| Docker | 单机部署简单应用 | 低 |
+| Docker-Compose | 单机/少数机器部署应用 | 低 |
+| k8s | 集群部署高可用应用 | 高 |
 
 ## 介绍
 
