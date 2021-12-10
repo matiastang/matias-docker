@@ -1,11 +1,19 @@
 <!--
  * @Author: tangdaoyong
  * @Date: 2021-01-18 22:18:15
- * @LastEditors: tangdaoyong
- * @LastEditTime: 2021-01-20 10:30:18
+ * @LastEditors: matiastang
+ * @LastEditTime: 2021-12-10 10:45:06
  * @Description: docker常用命令
 -->
 # docker常用命令
+
+## 删除镜像
+
+docker images | grep openalpha-front | awk '{print $3}' | xargs docker rmi
+
+## 删除容器
+
+docker ps -aq | xargs docker rm
 
 * docker version
 检查 Docker 是否正在运行
